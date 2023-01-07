@@ -1,0 +1,376 @@
+# Reading pref.tcl
+# do final_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Temp1
+# -- Compiling architecture beh of Temp1
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Temp3
+# -- Compiling architecture beh of Temp3
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/T2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Temp2
+# -- Compiling architecture beh of Temp2
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/shifter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter
+# -- Compiling architecture shift of shifter
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/SE10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/SE10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SE10
+# -- Compiling architecture se of SE10
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/SE7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/SE7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SE7
+# -- Compiling architecture se of SE7
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/register_16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/register_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_16
+# -- Compiling architecture beh of register_16
+# End time: 19:32:33 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/PC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:33 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PC
+# -- Compiling architecture beh of PC
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/IR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/IR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IR
+# -- Compiling architecture beh of IR
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/i_mem.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/i_mem.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity i_mem
+# -- Compiling architecture beh of i_mem
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/fsm_controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/fsm_controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_controller
+# -- Compiling architecture state_machine of fsm_controller
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/D3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/D3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity D3
+# -- Compiling architecture beh of D3
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/d_mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/d_mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity d_mem
+# -- Compiling architecture beh of d_mem
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/count.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/count.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count
+# -- Compiling architecture beh of count
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture func of alu
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity A1
+# -- Compiling architecture beh of A1
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity A2
+# -- Compiling architecture beh of A2
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/A3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity A3
+# -- Compiling architecture beh of A3
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IITB_CPU
+# -- Compiling architecture f of IITB_CPU
+# -- Loading entity fsm_controller
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/register_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:34 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/register_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_file
+# -- Compiling architecture beh of register_file
+# -- Loading entity register_16
+# End time: 19:32:34 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:35 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity shifter
+# -- Loading entity A3
+# -- Loading entity A2
+# -- Loading entity A1
+# -- Loading entity D3
+# -- Loading entity Temp3
+# -- Loading entity Temp1
+# -- Loading entity Temp2
+# -- Loading entity alu
+# -- Loading entity PC
+# -- Loading entity IR
+# -- Loading entity count
+# -- Loading entity SE10
+# -- Loading entity SE7
+# -- Loading entity d_mem
+# -- Loading entity i_mem
+# End time: 19:32:35 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:35 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 19:32:35 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:32:35 on Dec 05,2022
+# vcom -reportprogress 300 -93 -work work D:/study/3rd_sem/.complete/ee_224/EE__224_IIT_BOMBAY/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 19:32:35 on Dec 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 19:32:36 on Dec 05,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading ieee.numeric_std(body)
+# Loading work.iitb_cpu(f)
+# Loading work.datapath(struct)
+# Loading work.shifter(shift)
+# Loading work.a3(beh)
+# Loading work.a2(beh)
+# Loading work.a1(beh)
+# Loading work.d3(beh)
+# Loading work.temp3(beh)
+# Loading work.temp1(beh)
+# Loading work.temp2(beh)
+# Loading work.alu(func)
+# Loading work.pc(beh)
+# Loading work.ir(beh)
+# Loading work.count(beh)
+# Loading work.se10(se)
+# Loading work.se7(se)
+# Loading work.register_file(beh)
+# Loading work.register_16(beh)
+# Loading work.d_mem(beh)
+# Loading work.i_mem(beh)
+# Loading work.fsm_controller(state_machine)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/dut_instance/add_instance/output has no driver.
+# This port will contribute value (U) to the signal network.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/datapath1/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/datapath1/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut_instance/add_instance/datapath1/RF
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2060 ns  Iteration: 5  Instance: /testbench/dut_instance/add_instance/datapath1/RF
+# ** Note: SUCCESS, all tests passed.
+#    Time: 146260 ns  Iteration: 0  Instance: /testbench
+# End time: 19:33:20 on Dec 05,2022, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 5

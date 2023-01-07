@@ -1,0 +1,42 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/Testbench.vhdl}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/DUT.vhdl}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/T1.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/T3.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/T2.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/shifter.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/SE10.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/SE7.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/SE.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/register_16.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/PC.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/Memory.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/IR.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/i_mem.vhdl}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/fsm_controller.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/D3.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/d_mem.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/count.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/ALU.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/A1.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/A2.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/A3.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/IITB_RISC.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/register_file.vhd}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/datapath.vhd}
+
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/Testbench.vhdl}
+vcom -93 -work work {C:/Users/HP/Documents/EE_224_project/DUT.vhdl}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run -all

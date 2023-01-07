@@ -1,0 +1,41 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/Testbench.vhdl}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/DUT.vhdl}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/T1.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/T3.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/T2.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/shifter.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/SE10.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/SE7.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/SE.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/register_16.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/PC.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/IR.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/i_mem.vhdl}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/fsm_controller.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/D3.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/d_mem.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/count.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/ALU.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/A1.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/A2.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/A3.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/IITB_RISC.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/datapath.vhd}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/register_file.vhd}
+
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/Testbench.vhdl}
+vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE 224/EE__224_VIRUS/DUT.vhdl}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run -all
